@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>QuincaPro</title>
+  <rect width="512" height="512" rx="112" fill="#0f4b70"/>
+  <circle cx="228" cy="228" r="126" fill="none" stroke="#c4f8ff" stroke-width="38"/>
+  <path d="m318 318 99 99" fill="none" stroke="#c4f8ff" stroke-linecap="round" stroke-width="42"/>
+</svg>

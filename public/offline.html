@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0f4b70">
+    <title>Hors connexion · QuincaPro</title>
+    <style>
+        * { box-sizing: border-box; }
+        body { min-height: 100vh; display: grid; place-items: center; margin: 0; padding: 24px; color: #202c36; background: #f5f6f7; font: 16px/1.6 system-ui, sans-serif; text-align: center; }
+        main { width: min(100%, 440px); padding: 42px 32px; border: 1px solid #e6eaed; border-radius: 20px; background: #fff; box-shadow: 0 18px 50px #0f4b7012; }
+        img { width: 68px; height: 68px; }
+        h1 { margin: 22px 0 8px; font-size: 24px; letter-spacing: -.04em; }
+        p { margin: 0; color: #71808a; font-size: 14px; }
+        button { min-height: 44px; margin-top: 24px; padding: 0 18px; border: 0; border-radius: 9px; color: #fff; background: #0f4b70; font: inherit; font-size: 14px; font-weight: 650; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <main>
+        <img src="images/quincapro-icon.svg" alt="">
+        <h1>Connexion indisponible</h1>
+        <p>QuincaPro a besoin d’une connexion Internet pour accéder aux données de votre commerce. Vérifiez votre réseau et réessayez.</p>
+        <button type="button" onclick="window.location.reload()">Réessayer</button>
+    </main>
+</body>
+</html>
